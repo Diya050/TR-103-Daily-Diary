@@ -127,3 +127,90 @@ Computer scientists have identified three levels of AI based on predicted growth
 - Currently, AI does not have the ability to think abstractly, strategize, and use previous experiences to come up with new, creative ideas as humans do, such as inventing a new product or responding to people with appropriate emotions. And don't worry, AI is nowhere near this point.
 
 There might be another level, known as artificial superintelligence (ASI) that could appear near the end of this century. Then machines might become self-aware! Even then, no levels of AI are expected to replace or dominate you. Instead, scientists hope AI will extend humans’ ability to lead richer lives.
+
+
+# DAY - 2
+
+## What are the three eras of computing?
+
+### The Era of Tabulation
+
+For centuries, people have struggled to understand the meaning that’s hidden in large amounts of data. After all, it’s one thing to estimate how many trees grow in a million square miles of forest. It’s something else to classify what species of trees they are, how they cluster at different altitudes, and what could be built with the wood they provide. That information can be difficult to extract from a very large amount of data. 
+
+> Because it's hard to see without help, scientists call this **dark data**. It’s information without a structure: just a huge, unsorted mess of facts.
+
+- To sort out unstructured data, humans have created many different calculating machines. Over 2000 years ago, tax collectors for Emperor Qin Shihuang used the abacus—a device with beads on wires—to break down tax receipts and arrange them into categories. From this, they could determine how much the Emperor should spend on building extensions to the Great Wall of China.
+- In England during the mid-1800s, Charles Babbage and Ada Lovelace designed (but never finished) what they called a “difference engine” designed to handle complex calculations using logarithms and trigonometry. Had they built it, the difference engine might have helped the English Navy build tables of ocean tides and depth soundings that could guide English sailors through rough waters.
+- By the late 1880s, people were thinking about how to develop faster systems to record data. Herman Hollerith, inspired by train conductors using holes punched in different positions on a railway ticket to record traveler details, invented the recording of data on a machine-readable punched card. Hollerith’s cards were used for the 1890 US Census, which finished months ahead of schedule and under budget. Later versions of tabulating machines had broad applications in business, such as financial accounting and data processing.
+
+The word to remember across those twenty centuries is tabulate. Think of **tabulation as “slicing and dicing”** data to give it a structure, so that people can uncover patterns of useful information. You tabulate when you want to get a feel for what all those columns and rows of data in a table really mean.
+
+Researchers call these centuries the **Era of Tabulation**, a time when machines helped humans sort data into structures to reveal its secrets.
+
+
+### The Era of Programming
+
+- During the turmoil of World War II, a new approach to dark data emerged: the Era of Programming. Scientists began building electronic computers, like the Electronic Numerical Integrator and Computer (ENIAC) at the University of Pennsylvania, that could run more than one kind of instruction (today we call those “programs”) in order to do more than one kind of calculation. ENIAC, for example, not only calculated artillery firing tables for the US Army, it worked in secret to study the feasibility of thermonuclear weapons.
+
+- This was a huge breakthrough. Programmable computers guided astronauts from Earth to the moon and were reprogrammed during Apollo 13’s troubled mission to bring its astronauts safely back to Earth.
+
+- You’ve grown up during the **Era of Programming**. It even drives the phone you hold in your hand. But the dark data problem has also grown. Modern businesses and technology generate so much data that even the finest programmable supercomputer can't analyze it before the “heat-death” of the universe. Electronic computing is facing a crisis.
+
+### The Era of AI
+
+The history of artificial intelligence dates back to philosophers thinking about the question, "What more can be done with the world we live in?" This question lead to discussions and the very beginning of many ideas about the possibilities involving technology. 
+
+Since the advent of electronic computing, there are some important events and milestones in the evolution of artificial intelligence to know about. Here's an overview to get started.
+
+- **Turing Machine:** Alan Turing publishes Computing Machinery and Intelligence. In the paper, Turing—famous for helping to break the Nazis’ Enigma code during World War II—proposes to answer the question "can machines think?" and introduces the Turing Test to determine if a computer can demonstrate the same intelligence (or the results of the same intelligence) as a human.
+- **Dartmouth Conference - Birth of AI:** John McCarthy coins the term "artificial intelligence at the first-ever AI conference at Dartmouth College. Later that year, Allen Newell, J.C. Shaw, and Herbert Simon create the **Logic Theorist**, the first-ever running AI software program. McCarthy would go on to invent the Lisp language.
+- **1st AI Winter:** 1st AI Winter caused by high expectations from end users and reduced funding.
+- **2nd AI Winter:** 2nd AI Winter caused by unmet expectations and computing power.
+- **Deep Blue:** IBM Deep Blue beats then world champion Garry Kasparov in a chess match (and rematch).
+- **IBM Watson** beats champions Ken Jennings and Brad Rutter at the US game show called Jeopardy!
+- **DeepMind's AlphaGo** program, powered by a deep neural network, beats Lee Sodol, the world champion Go player, in a five-game match. The victory is significant given the huge number of possible moves as the game progresses (over 14.5 trillion after just four moves!). Google bought DeepMind for a reported USD 400 million in 2014.
+- IBM unveils **Project Debater**, the first AI system capable of engaging with humans on complex topics in a live debate.
+
+![image](https://github.com/user-attachments/assets/bafc3bbe-9327-48aa-a85d-ce8a84777af3)
+
+#### The Era of AI began one summer in 1956
+
+Early in the summer of 1956, a small group of researchers, led by John McCarthy and Marvin Minsky, gathered at Dartmouth College in New Hampshire. There, at one of the oldest colleges in the United States, they launched a revolution in scientific research and coined the term “artificial intelligence”.
+
+The researchers proposed that “every aspect of learning or any other feature of intelligence can be so precisely described that a machine can be made to simulate it.” They called their vision “artificial intelligence” and they raised millions of dollars to achieve it within 20 years. During the next two decades, they accomplished tremendous things, creating machines that could prove geometry theorems, speak simple English, and even solve word problems with algebra. 
+
+> For a short time, AI was one of the most exciting fields
+
+#### But then came winter
+
+By the early 1970s, it became clear that the problem was larger than researchers imagined. There were fundamental limits that no amount of money and effort could solve.
+
+- **Limited Calculating Power:** Today, it is important for a computer to have enough processing power and memory. Every ad you see for companies like Apple or Dell emphasizes how fast their processors run and how much data they can work with. But in 1976, scientists realized that even the most successful computers of the day, working with natural language, could only manipulate a vocabulary of about 20 words. But a task like matching the performance of the human retina might require millions of instructions per second, at a time when the world’s fastest computer could run only about a hundred. By the early 1970s, it became clear that the problem was larger than researchers imagined. There were fundamental limits that no amount of money and effort could solve.
+
+- **Limited Information Storage:** Even simple, commonsense reasoning requires a lot of information to back it up. But no one in 1970 knew how to build a database large enough to hold even the information known by a 2-year-old child.
+
+As these issues became clear, the money dried up for The First Winter of AI.
+
+#### The weather was rough for half a century
+
+It took about a decade for technology and AI theory to catch up, primarily with new forms of AI called “expert systems”. These were limited to specific knowledge that could be manipulated with sets of rules. They worked well enough—for a while—and became popular in the 1980s. Money poured in. Researchers invested in tremendous mainframe machines that cost millions of dollars and occupied entire floors of large university and corporate buildings. It seemed as if AI was booming once again.
+
+But soon the needs of scientists, businesses, and governments outgrew even these new systems. Again, funding for AI collapsed.
+
+#### Then came another AI chill
+
+In the late 1980s, the boom in AI research cooled, in part, because of the rise of personal computers. Machines from Apple and IBM, sitting on desks in people’s homes, grew more powerful than the huge corporate systems purchased just a few years earlier. Businesses and governments stopped investing in large-scale computing research, and funding dried up.
+
+Over 300 AI companies shut down or went bankrupt during The Second Winter of AI.
+
+#### Now, the forecast is sunny
+
+In the mid-1990s, almost half a century after the Dartmouth research project, the Second Winter of AI began to thaw. Behind the scenes, computer processing finally reached speeds fast enough for machines to solve complex problems.
+
+At the same time, the public began to see AI’s ability to play sophisticated games.
+
+- In 1997, IBM’s Deep Blue beat the world’s chess champion by processing over 200 million possible moves per second.
+- In 2005, a Stanford University robot drove itself down a 131-mile desert trail.
+- In 2011, IBM’s Watson defeated two grand champions in the game of Jeopardy!
+
+Today, AI has proven its ability in fields ranging from cancer research and big data analysis to defense systems and energy production. Artificial intelligence has come of age. AI has become one of the hottest fields of computer science. Its achievements impact people every day and its abilities increase exponentially. The Two Winters of AI have ended!
