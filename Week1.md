@@ -193,19 +193,19 @@ As these issues became clear, the money dried up for The First Winter of AI.
 
 #### The weather was rough for half a century
 
-It took about a decade for technology and AI theory to catch up, primarily with new forms of AI called “expert systems”. These were limited to specific knowledge that could be manipulated with sets of rules. They worked well enough—for a while—and became popular in the 1980s. Money poured in. Researchers invested in tremendous mainframe machines that cost millions of dollars and occupied entire floors of large university and corporate buildings. It seemed as if AI was booming once again.
+It took about a decade for technology and AI theory to catch up, primarily with **new forms of AI called “expert systems”**. These were limited to specific knowledge that could be manipulated with sets of rules. They worked well enough—for a while—and became popular in the 1980s. Money poured in. Researchers invested in tremendous mainframe machines that cost millions of dollars and occupied entire floors of large university and corporate buildings. It seemed as if AI was booming once again.
 
 But soon the needs of scientists, businesses, and governments outgrew even these new systems. Again, funding for AI collapsed.
 
 #### Then came another AI chill
 
-In the late 1980s, the boom in AI research cooled, in part, because of the rise of personal computers. Machines from Apple and IBM, sitting on desks in people’s homes, grew more powerful than the huge corporate systems purchased just a few years earlier. Businesses and governments stopped investing in large-scale computing research, and funding dried up.
+In the late 1980s, the boom in AI research cooled, in part, because of the **rise of personal computers**. Machines from Apple and IBM, sitting on desks in people’s homes, grew more powerful than the huge corporate systems purchased just a few years earlier. Businesses and governments stopped investing in large-scale computing research, and funding dried up.
 
 Over 300 AI companies shut down or went bankrupt during The Second Winter of AI.
 
 #### Now, the forecast is sunny
 
-In the mid-1990s, almost half a century after the Dartmouth research project, the Second Winter of AI began to thaw. Behind the scenes, computer processing finally reached speeds fast enough for machines to solve complex problems.
+In the mid-1990s, almost half a century after the Dartmouth research project, the Second Winter of AI began to thaw. Behind the scenes, **computer processing finally reached speeds fast enough for machines to solve complex problems**.
 
 At the same time, the public began to see AI’s ability to play sophisticated games.
 
@@ -214,3 +214,38 @@ At the same time, the public began to see AI’s ability to play sophisticated g
 - In 2011, IBM’s Watson defeated two grand champions in the game of Jeopardy!
 
 Today, AI has proven its ability in fields ranging from cancer research and big data analysis to defense systems and energy production. Artificial intelligence has come of age. AI has become one of the hottest fields of computer science. Its achievements impact people every day and its abilities increase exponentially. The Two Winters of AI have ended!
+
+## Structured, semi-structured, or unstructured data: What are the differences?
+
+### A look at the types of data
+
+Data is raw information. Data might be facts, statistics, opinions, or any kind of content that is recorded in some format. This could include voices, photos, names, and even dance moves!
+
+Data can be organized into the following three types.
+
+Data is raw information. Data might be facts, statistics, opinions, or any kind of content that is recorded in some format. This could include voices, photos, names, and even dance moves!
+
+Data can be organized into the following three types.
+
+- **Structured data** is typically categorized as quantitative data and is highly organized. Structured data is information that can be organized in rows and columns. Perhaps you've seen structured data in a spreadsheet, like Google Sheets or Microsoft Excel. Examples of structured data includes names, dates, addresses, credit card numbers, stock information.
+- **Unstructured data**, also known as dark data, is typically categorized as qualitative data. It cannot be processed and analyzed by conventional data tools and methods. Unstructured data lacks any built-in organization, or structure. Examples of unstructured data include images, texts, customer comments, medical records, and even song lyrics.
+- **Semi-structured data** is the “bridge” between structured and unstructured data. It doesn't have a predefined data model. It combines features of both structured data and unstructured data. It's more complex than structured data, yet easier to store than unstructured data. Semi-structured data uses metadata to identify specific data characteristics and scale data into records and preset fields. Metadata ultimately enables semi-structured data to be better cataloged, searched, and analyzed than unstructured data. An example of semi-structured data is a video on a social media site. The video by itself is unstructured data, but a video typically has text for the internet to easily categorize that information, such as through a hashtag to identify a location.
+
+> The importance of unstructured data is rapidly increasing. Recent projections(opens in a new tab) indicate that 95% of businesses prioritize unstructured data management.
+
+Are you wondering why this is important? Why would anyone want to search through a mountain of data such as social media posts? 
+
+Here are just some of the many people and organizations that might need to do this:
+
+- A sneaker designer looking for new trends
+- Governments searching for possible terrorists
+- Pandemic experts trying to anticipate disease outbreaks
+- Financial institutions preparing for good times or a recession
+
+> Experts estimate that about 80% of all the data in today’s world is unstructured. It contains so many variables and changes so quickly that no conventional computer program can learn much from it.
+
+### Analyzing unstructured data
+
+Now, imagine a programmable computer trying to extract meaning from billions of data like this! What kind of program would someone write that could sort out every eventuality among the clutter? How would someone build a long enough list of keywords to find anything useful? Unstructured data hides answers to disease prevention, criminal activity, stock markets—almost every aspect of civilization today. Without those answers, people and organizations cannot make useful predictions or recommendations.
+
+But AI can shed light on unstructured data! AI uses new kinds of computing—some modeled on the human brain—to rapidly give dark data structure, and from it, make new discoveries. AI can even learn things—by itself—from the data it manages and teach itself how to make better predictions over time. This is the Era of AI, and it changes everything!
