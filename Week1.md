@@ -249,3 +249,112 @@ Here are just some of the many people and organizations that might need to do th
 Now, imagine a programmable computer trying to extract meaning from billions of data like this! What kind of program would someone write that could sort out every eventuality among the clutter? How would someone build a long enough list of keywords to find anything useful? Unstructured data hides answers to disease prevention, criminal activity, stock markets—almost every aspect of civilization today. Without those answers, people and organizations cannot make useful predictions or recommendations.
 
 But AI can shed light on unstructured data! AI uses new kinds of computing—some modeled on the human brain—to rapidly give dark data structure, and from it, make new discoveries. AI can even learn things—by itself—from the data it manages and teach itself how to make better predictions over time. This is the Era of AI, and it changes everything!
+
+# DAY - 3
+
+## Is machine learning the answer to the unstructured data problem?
+
+### How does machine learning approach a problem?
+
+If AI doesn’t rely on programming instructions to work with unstructured data, how does AI do it? Machine learning can analyze dark data far more quickly than a programmable computer can. To see why, consider the problem of finding a route through big city traffic using a navigation system. It’s a dark data problem because solving it requires working with not only a complicated street map, but also with changing variables like weather, traffic jams, and accidents. Let’s look at how two different systems might try to solve this problem.
+
+- **Programmable Computer:** <br>
+Researchers might upload onto the computer a complete database of all possible routes through the city. This is an enormous collection of structured data.
+
+Then they would have to add much more data describing current weather and traffic conditions. This would have to be revised every few minutes for the entire city!
+
+Then they might use a programmable computer to search through the data until it finds a route from start to finish. The entire project would require astronomical resources and time, if it could be accomplished at all!
+
+- **AI with Machine Learning:** <br>
+
+The machine learning AI would treat the problem like climbing a tree. The system would try a route, as if starting at the base of the trunk. Upon reaching a branch, the system would then fork in one direction and continue doing so until it reached either a dead end or the desired destination.
+
+It would do this over and over again, then compare successful routes to identify the shortest one. Although the work sounds repetitious, it requires fewer resources and can be completed more quickly.
+
+### The machine learning process is entirely different
+
+The machine learning process has advantages:
+
+- It doesn’t need a database of all the possible routes from one place to another. It just needs to know where places are on the map.
+- It can respond to traffic problems quickly because it doesn’t need to store alternative routes for every possible traffic situation. It notes where slowdowns are and finds a way around them through trial and error.
+- It can work very quickly. While trying single turns one at a time, it can work through millions of tiny calculations.
+
+But machine learning has two more advantages that programmable computers lack:
+
+- **Machine learning can predict**. You know this already. A machine can determine, “Based on traffic right now, this route is likely to be faster than that one.” It knows this because it compared routes as it built them.
+- **Machine learning learns!** It can notice that your car was delayed by a temporary detour and adjust its recommendations to help other drivers.
+
+### Machine learning uses probabilistic calculation
+
+There are two other ways to contrast classical and machine learning systems. One is deterministic and the other is probabilistic.
+
+Let’s dig in and see what these two words mean.
+
+- For a **deterministic** system, there must be an enormous, predetermined structure of routes—a gigantic database of possibilities from which the machine can make its choice. If a certain route leads to the destination, then the machine flags it as “YES”. If not, it flags it as “NO”. This is basically binary thinking: on or off, yes or no. This is the essence of a computer program. The answer is either true or false, not a confidence value.
+
+- Machine learning is **probabilistic**. It never says “YES” or “NO”. Machine learning is analog (like waves gradually going up and down) rather than binary (like arrows pointing upward and downward). Machine learning constructs every possible route to a destination and compares them in real time, including all the variables such as changing traffic. So, a machine learning system doesn’t say, “This is the fastest route.” It says something like, “I am 84% confident that this route will get you there in the shortest time.” You might have seen this yourself if you’ve traveled in a car with an up-to-date GPS navigation system that offers you two or three choices with estimated times.
+
+### Machine learning enables a rich partnership between technology and humans
+
+AI systems and humans excel at different things. For example, you, as a person, might excel at imagining possibilities, while AI excels at pinpointing patterns.
+
+### Does common sense make sense?
+
+It turns out that in fields, ranging from medicine and education to social studies and government, the best decisions are made using a **balance of human and machine strengths**. But remember, there is another elusive but vital capability that must also be considered: common sense. You might know people with strong common sense and understand its value. You also might have seen or read output from machines that makes no sense. Yet, there’s a contribution to be made from both sides.
+
+Common sense draws on many **complex generalizations mixed with compassion and abstractions**. At this time, only humans can use common sense well. The problem is that common sense is often tainted with bias that can distort your judgment. AI systems can balance this. As long as AI systems are provided and trained with unbiased data, they can make recommendations that are free of bias. A partnership between humans and machines can lead to sensible decisions. 
+
+
+## Three common methods of machine learning
+
+Machine learning solves problems in three ways: 
+
+- Supervised learning
+- Unsupervised learning
+- Reinforcement learning
+
+
+### Supervised learning
+
+**Supervised learning** is about providing AI with enough examples to make accurate predictions. 
+
+All supervised learning algorithms need **labeled data**. Labeled data is data that is grouped into samples that are tagged with one or more labels. In other words, applying supervised learning requires you to tell your model:
+
+- What the key characteristics of a thing are, also called **features**
+- What the thing actually is
+
+For example, the information might be drawings and photos of animals, some of which are dogs and are labeled “dog”. The machine will learn by identifying a pattern for “dog”. When the machine sees a new dog photo and is asked, “What is this?”, it will respond, “dog”, with high accuracy. This is known as a classification problem.
+
+### Unsupervised learning
+
+In **unsupervised learning**, a person feeds a machine a large amount of information, asks a question, and then the machine is left to figure out how to answer the question by itself.
+
+For example, the machine might be fed many photos and articles about dogs. It will classify and cluster information about all of them. When shown a new photo of a dog, the machine can identify the photo as a dog, with reasonable accuracy.
+
+Unsupervised learning is helpful when you don't know how to classify data. For example, imagine you work for a banking institution and you have a large set of customer financial data. You don't know what type of groups or categories to organize the data. Here, an unsupervised learning algorithm could find natural groupings of similar customers in a database, and then you could describe and label them. 
+
+This type of learning has the **ability to discover similarities and differences in information**, which makes it an ideal solution for exploratory data analysis, cross-selling strategies, customer segmentation, and image recognition.
+
+### Reinforcement learning
+
+Reinforcement learning is a machine learning model similar to supervised learning, but the algorithm isn’t trained using sample data. This model learns as it goes by using trial and error. A sequence of successful outcomes is reinforced to develop the best recommendation for a given problem. The foundation of reinforcement learning is rewarding the “right” behavior and punishing the “wrong” behavior.
+
+You might be wondering, what does it mean to "reward" a machine? Good question! Rewarding a machine means that you give your agent positive reinforcement for performing the "right" thing and negative reinforcement for performing the "wrong" things. 
+
+As a machine learns through trial and error, it tries a prediction, then compares it with data in its corpus. 
+
+- Each time the comparison is positive, the machine receives positive numerical feedback, or a **reward**.
+- Each time the comparison is negative, the machine receives negative numerical feedback, or a **penalty**.
+Over time, a machine’s predictions will grow to be more accurate. It accomplishes this automatically based on feedback, rather than through human intervention.
+
+## How will machine learning transform human life?
+
+Perhaps, 25 years from now, General AI is expected to emerge. AI researcher Nick Bostrom defines this superintelligence as, “an intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom and social skills.” You’re likely to see General AI appear in your lifetime. General AI will enable supersmart bots and technologies to link AI with the Internet of Things through “embodied cognition”. This will give machines the ability to interact in human-like ways as they work alongside humans.
+
+- **AI Everywhere:** AI will move into all industries, from finance, to education, to healthcare. AI will increase productivity and enable new opportunities.
+- **Deeper Insights:** New technologies will sense, analyze, and understand things never before possible.
+- **Engagement Reimagined:** New forms of human-machine interaction and emerging technologies, such as conversational bots, will transform how humans engage with each other and with machines.
+- **Personalization:** Machine interactions will be personalized for you, with new levels of detail and scale.
+- **Instrumented Planet:** Billions of sensors generating exabytes of data will open new possibilities for improving Earth’s safety, sustainability, and security.
+
+What’s beyond these wonders? Humans, devices, and robots might exist as a collective “digital brain” that anticipates human needs, makes predictions, and provides solutions. Farther in the future, we might trust the digital brain to do things on our behalf across a broad spectrum of endeavors!
