@@ -358,3 +358,62 @@ Perhaps, 25 years from now, General AI is expected to emerge. AI researcher Nick
 - **Instrumented Planet:** Billions of sensors generating exabytes of data will open new possibilities for improving Earth’s safety, sustainability, and security.
 
 What’s beyond these wonders? Humans, devices, and robots might exist as a collective “digital brain” that anticipates human needs, makes predictions, and provides solutions. Farther in the future, we might trust the digital brain to do things on our behalf across a broad spectrum of endeavors!
+
+# DAY - 4
+
+## How do machines learn?
+
+Supervised learning requires that an AI system ingest structured data. Unsupervised learning and reinforcement learning require a system to develop its own structure either by analyzing large amounts of data (unsupervised learning) or by trial-and-error (reinforcement learning).
+
+## Classical machine learning
+
+Classical machine learning began in the 1950s. AI systems learned by ingesting data and getting better at recognizing patterns. The AI systems could predict things like the distance between points or the intensity of values.
+
+Like all machine learning, the classical form depends on algorithms. Recall that algorithms are mathematical expressions that output a result. C**lassical machine learning uses a small number of algorithms in a relatively simple arrangement**. Sometimes machine learning algorithms are **binary**, which means that they output one of only two values. Typical binary results might be a 1 or a 0, a YES or a NO, and a TRUE or a FALSE.
+
+Other classical learning algorithms are more complicated. For example, their result might be represented as a position on a multidimensional graph rather than “this point” or “that point”. Here are three typical algorithms that are used in classical computing:
+
+- Decision tree
+- Linear regression
+- Logistic regression
+
+## Decision tree
+A decision tree is a supervised learning algorithm. It operates like a flowchart. You can think of a flowchart as an upside-down decision tree. The flowchart has a root node (where the flowchart begins), branches that connect to internal nodes, and more branches that connect to leaf nodes.
+
+![image](https://github.com/user-attachments/assets/0de07ede-2a9a-4e01-8ccd-311f48231afd)
+
+## Linear regression
+Linear regression is another type of algorithm. It relates to data that might be graphed as a straight line. For example, a business might believe that more advertising spending leads to better sales. This could be graphed as a series of dots that form a rising straight line, as depicted here.
+
+![image](https://github.com/user-attachments/assets/dc54c1b1-d3cc-4c47-874e-de64e73ca376)
+
+As suggested in the chart, as advertising increases, so do sales. There are many possible outcomes (different amounts of advertising lead to different amounts of sales), but the **change rises on the graph in a straight line**.
+
+The situation is more complicated if a company’s actual sales show different data for different products, at different locations, on different dates, and so on. With a large number of variables and instances, the graph becomes a mass of dots that don’t arrange into a straight line at all. Without adjustment, resulting graph is too general to help a business make a good decision. That’s where linear regression can help. Linear regression can learn all the variables, then calculate a reasonably accurate prediction of how advertising will impact sales at some time and location in the future. In effect, **linear regression resolves the mass of dots into a “most likely”** line that can be used for simple prediction.
+
+## Logistic regression
+In some situations, a relationship does not fall in a straight line. Sometimes a system uses values that require a specific, limited kind of outcome, such as something between 0 and 1 (or NO and YES). In this situation, a graph can form what’s called a sigmoid function, or an S-shaped curve, as shown in the accompanying example. For any set of variables, the outcome (which is a point on the S-curve) falls between 0 and 1.
+
+![image](https://github.com/user-attachments/assets/c52d2512-fc05-40e3-8a16-e7c6bcf5dbcd)
+
+Here’s a real-world example. Refer to the previous graph. Let’s say you want to know how many hours you should study in order to pass an exam. You have the number of study hours and passing or failing status for 10 other students. “Hours of studying” is a varying amount, in this case, between 1 and 5 hours. Passing the exam is a matter of NO or YES (either FAIL or PASS).
+
+If you plot these two factors together as a logistical regression, you get an S curve in which 0 hours of study results in a very low chance of passing, while 5.5 hours results in a very high chance. As shown in the chart, the variable “Hours of studying” is along the x-axis. The values along the y-axis represent the values for the variable “Probability of passing exam”.
+
+Here’s another way to understand the graph: it predicts that studying at least 4 hours gives you a very good chance of passing the course.
+
+### Comparing linear and logistic regressions
+
+Linear and logistic regressions are useful in the following ways:
+
+- A **linear** regression answers a question such as “If this increases by X, how much will Y increase?”
+- A **logistic** regression answers a question such as “If this increases by X, will the value of Y be closer to 0 or 1?”
+
+## Classical machine learning is not obsolete
+Classical machine learning can be outperformed, at some tasks, by newer methods that are part of the deep learning ecosystem. But there are still reasons to use classical machine learning. These include:
+
+- **Work with structured data:**  Classical machine learning is used mostly with structured data from databases, such as hours studied compared to grades earned.
+- **Lower expense to operate:** Classical machine learning requires less computing power than deep learning ecosystems. They can run on less expensive computers with less powerful processors, which lowers the price for smaller businesses, communities, or healthcare systems that share time on them in pay-as-you-go arrangements.
+- **Easier to interpret:** Deep networks are so complex that even AI researchers don’t entirely understand what’s going on inside. As a result, AI researchers are not always able to determine when deep network systems are producing invalid outputs. Compared to these mysteries, classical results can be easier to debug, and to test for accuracy and lack of bias.
+
+## The deep learning ecosystem
