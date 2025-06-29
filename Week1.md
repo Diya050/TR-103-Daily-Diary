@@ -416,4 +416,89 @@ Classical machine learning can be outperformed, at some tasks, by newer methods 
 - **Lower expense to operate:** Classical machine learning requires less computing power than deep learning ecosystems. They can run on less expensive computers with less powerful processors, which lowers the price for smaller businesses, communities, or healthcare systems that share time on them in pay-as-you-go arrangements.
 - **Easier to interpret:** Deep networks are so complex that even AI researchers don’t entirely understand what’s going on inside. As a result, AI researchers are not always able to determine when deep network systems are producing invalid outputs. Compared to these mysteries, classical results can be easier to debug, and to test for accuracy and lack of bias.
 
+# DAY - 5
+
 ## The deep learning ecosystem
+
+Today, machine learning has evolved into a collection of powerful applications called the deep learning ecosystem. The foundation for many applications is called a neural network. A neural network uses electronic circuitry inspired by the way neurons communicate in the human brain. 
+
+In the brain, cells called neurons have a cell body at one end where the nucleus resides, and a long axon leading to a set of branching terminals at the other end. Neurons communicate to each other by receiving signals into the axon, altering those signals, then transmitting them out through the terminals to other neurons. Researchers estimate that a human brain has about 100 billion neurons, each one connected to up to 10,000 other neurons.
+
+In a neural network, a building block, called a perceptron, acts as the equivalent of a single neuron. A perceptron has an input layer, one or more hidden layers, and an output layer. A signal enters the input layer and the hidden layers run algorithms on the signal. Then, the result is passed to the output layer.
+
+The operation of a neural network is pure mathematics. The network isn’t “thinking”; it is calculating. But it’s using those calculations to create an output that humans can interpret as an answer or a recommendation.
+
+## How does a neural network learns in the first place. 
+
+The answer is: by continuously adjusting itself, in a process that humans refer to as **trial and error**.
+
+Once a neural network has ingested or already learned a certain amount of data, it stores the data in its **“body of information”, called its corpus**. In order to learn, the neural network constantly tests new data or the results of its calculation against its corpus. If the network determines that the new data or results don’t match the patterns it has already established, it modifies those patterns for a better fit. Sometimes, to improve a single match, the network tests hundreds or thousands of modifications very rapidly and makes adjustments. Then, the network tests to determine if the match is improving. So, step by step, the machine learns.
+
+## Machine learning makes many guesses
+
+Machine learning uses its tremendous calculation speed to make many guesses that bring it closer and closer to an answer. It randomly makes its first guess, sets that guess as a variable, then tests how accurately the guess fits with both old and new data. Next, it makes an adjustment to the variable and tries again. Using mathematical processes to help it choose right-size adjustments, the system keeps on trying, getting closer and closer to perfection but never quite reaching it. 
+
+For this reason, many AI systems output a confidence value along with an answer or prediction. For example, a system predicting effective treatments for a cancer patient might output two or three suggested approaches, along with a measure of how confident it is that each treatment might work. This reflects how the system reaches those decisions. The system also leaves the final decision to the doctor who knows the patient.
+
+## What Deep Neural Network can do?
+
+- **Photo identification:** Technologists can use a DNN to examine an historic photo of unknown persons or places. The DNN compares what it finds with millions of pictures in its corpus and then outputs full names and possible locations.
+- **Housing Construction:** Real estate companies can use a DNN to predict changes in housing prices across an entire city or state. DNNs can help real estate companies predict business trends and determine how to invest in materials and labor.
+- **Self-driving cars:** Automobile engineers can use DNNs to model millions of driving situations and help self-driving vehicles navigate safely.
+- **Cancer treatment:** Radiologists can use DNNs to identify variations in MRI images that are otherwise invisible to the human eye. Radiologists can receive early warnings of potentially treatable cancers.
+
+## Generative AI
+
+Generative AI is a type of artificial intelligence that creates new, original content that people have never seen before.
+
+- Most AI systems are discriminative AI models, which predict and classify data.
+- In contrast, generative AI models are a type of deep learning AI system that uses algorithms to generate content based on a submitted prompt, thus the name of generative AI.
+For example, a discriminative model could tell a bicycle from a truck and a generative model could generate a new image that looks like a bicycle.
+
+So, generative AI’s distinction from other AI systems is its ability to produce content that is new and considered creative, such as images, videos, music, synthetic data, essays, answers to questions, and more.
+
+![image](https://github.com/user-attachments/assets/5c44565c-90b6-429e-a2dd-c932489f0651)
+
+## How does generative AI work?
+Think of generative AI as a virtual artist. Just like a human artist, it needs inspiration and tools to create something unique. Instead of using paint and canvas, however, generative AI uses algorithms and data sets.
+
+Here’s the overall generative AI process. 
+
+1. First, a person feeds the AI a large amount of data. This could be anything from images and sounds to text and numbers.
+
+2. Then, the AI analyzes this data, looking for patterns and relationships between the different pieces of information. The neural network is trained on a dataset of examples of the type of output it is intended to generate, such as images or text. During the training process, the neural network learns to identify patterns and relationships in the input data and use them to generate new outputs that are similar to, but not identical to, the examples it was trained on.
+
+3. Next, the AI uses what it has learned to create something new. The neural network generates new outputs by inputting a random seed value. The seed value serves as the starting point for the generation process. The neural network processes the seed value and generates a new output that is based on the patterns and relationships it learned during training. For example, if someone gave the AI a set of images of dogs, it might use its knowledge of different dog breeds to create an image of a new dog that doesn't exist in real life.
+
+Generative AI can also complete more complex tasks, like writing stories or composing music. In these cases, the AI analyzes patterns in language or music to create something entirely new.
+
+Of course, not all generative AI is perfect. Just like human artists, sometimes the results can be a bit strange or unexpected. However, as this technology improves, you can expect to see even more impressive creations from generative AI in the future!
+
+## Types of generative AI models
+
+Let’s explore the three primary types of generative AI models: 
+
+- **Variational autoencoder (VAE):** Think of variational autoencoder (VAE) models as a skilled artist who can look at a painting, quickly sketch a simplified version of it, and then recreate a new painting using only that simplified sketch as a reference. The artist is capturing the essential elements of the painting and then using them to create a new work of art.
+VAEs use a similar process. The "encoder" network **compresses the input data into a lower-dimensional representation** and the "decoder" network reconstructs the original data from this compressed representation. This allows VAEs to capture the underlying structure and patterns in the data, which can then generate new, similar data.
+
+![image](https://github.com/user-attachments/assets/c735ceb9-1eec-4045-b2d1-34d5e5e1359f)
+
+- **Generative adversarial network (GAN):** Think of a generative adversarial network (GAN) model as a competition between a skilled forger (the generator) and a talented art critic (the discriminator). The forger creates fake paintings, while the critic tries to determine whether each painting is genuine or a forgery. As the forger improves their technique, the critic becomes more discerning, and this cycle continues until the forger can create near-perfect forgeries.
+
+In GANs, the generator creates new data, while the discriminator evaluates the quality of the generated data. The generator tries to create data that is realistic enough to fool the discriminator, while the discriminator learns to better distinguish between real and generated data. This competition leads to the generator creating increasingly realistic content.
+
+![image](https://github.com/user-attachments/assets/f9a7cdb8-5e41-4d37-b9a0-4d24c92e3d03)
+
+- **Autoregressive:** Imagine an autoregressive model as a skilled storyteller who listens to the beginning of a story and then continues it by predicting what comes next based on the words and events that have occurred so far. The storyteller uses their knowledge of language, grammar, and storytelling conventions to create a coherent and engaging continuation of the story.
+
+Autoregressive models generate new content by predicting the next element in a sequence based on the previous elements. They are particularly well-suited for generating text because they can model the conditional probabilities of words and characters in a sentence.
+
+![image](https://github.com/user-attachments/assets/c783e960-de5b-4cee-91c1-acaaaf0a09ee)
+
+## Examples of generative AI applications
+
+- **CHATGPT:** OpenAI launched ChatGPT, an AI chatbot, in November 2022. Able to interact by using conversational natural language, this AI tool goes beyond the traditional search engine responses of simply listing related results. Instead, ChatGPT follows instructions given in the prompt and provides a detailed response. For example, with ChatGPT, a person can enter a text prompt of “Write a poem about cats” and the result will be a poem about cats, rather than a listing of websites about cats.
+- **IBM WATSON DISCOVERY:** IBM Watson Discovery uses foundational technologies, such as large language models (LLMs), to obtain insights from what it is that we don’t know. It’s used widely in genomic research discovering what amino acids might lurk inside the protein not known before and unearth the relationship of various actors or entities for government security related questions.
+- **DALL-E AND DALL-E 2:** Developed by OpenAI, these are generative AI models that use natural language text input to generate digital images. The first version of DALL-E could only render AI-created images in a cartoonish fashion, but the latest version can produce much more realistic images due to improved image processing algorithms.
+- **BARD:** Bard is a generative AI tool that Google launched in an initial, limited capacity in March 2023. Bard is founded on Google’s Bidirectional Encoder Representations from Transformers (BERT) model. It isn’t generative AI; rather, Google developed it for natural language processing (NLP), especially for its capacity to interpret the nuances of a user’s search words. Bard builds on BERT’s capability of natural language interactions with Bard’s generative AI capability to generate new content. For example, musicians can use Bard to compose music and lyrics.
+
