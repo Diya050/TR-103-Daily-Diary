@@ -619,27 +619,27 @@ Industries:
      
 - **DEEPER INSIGHTS:** New technologies will be able to sense and analyze things at a level of understanding that was never before possible. This includes future-forward technologies with unfamiliar names, like quantum computing. Quantum computing is a dramatically different way to calculate, based on the behavior of subatomic particles.
 Technologies:
- - Quantum computing
- - Distributed deep learning
- - Neuromorphic systems
- - Homomorphic encryption
- - Machine foresight
- - Cognitive discovery
+   - Quantum computing
+   - Distributed deep learning
+   - Neuromorphic systems
+   - Homomorphic encryption
+   - Machine foresight
+   - Cognitive discovery
 
 - **ENGAGEMENT REIMAGINED:** New forms of human-machine communication, based on blockchain, conversational bots, and more ideas, will transform how you interact not only with your friends, family members, and coworkers, but also with machines that listen and engage in complex conversations.
 Interactions:
- - Human-machine collaboration
- - New AI modalities
- - Augmented reality
- - Global trade logistics
- - Blockchain for payments
+   - Human-machine collaboration
+   - New AI modalities
+   - Augmented reality
+   - Global trade logistics
+   - Blockchain for payments
 
 - **PERSONILZATION AT SCALE:** Machines will interact with you in ways tailored to your particular desires, habits, and level of comfort. Today, websites already offer merchandise based on orders you’ve made in the past. Soon, you’ll use sites that recognize you and know and understand the things you love. This includes the fashions you follow. Future sites will discuss your fashion preferences with you and offer them perfectly fitted to your size and needs.
 - **INSTRUMENTED PLANET:** Billions of sensors generating exabytes of data every day will improve the safety, sustainability, and security of our planet. You won’t get caught in a surprise storm. You will enjoy food from crops grown in new ways that provide maximum taste and nutrition, with minimum damage to the environment.
 Connections:
- - Environmental solutions
- - Digital agriculture
- - Connected cars
- - Geospatial temporal data and analytics
- - Smart sensors
+   - Environmental solutions
+   - Digital agriculture
+   - Connected cars
+   - Geospatial temporal data and analytics
+   - Smart sensors
 
