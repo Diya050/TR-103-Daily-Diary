@@ -432,3 +432,137 @@ Why do we care about these four steps? Because they reflect and test four things
 ### Is it difficult to understand human language?
 
 Understanding human language is difficult, even for people who have grown up with it. Human language is incredibly complex, full of strange expressions that seem to contradict each other, metaphors that require cultural knowledge to understand, and grammatical structures that sometimes turn simple ideas into tongue-twisters. Machines require systems that research scientists call natural language processing, or NLP, to understand human language. IBM Project Debater was the most complex AI system IBM Research had ever built to understand human language.
+
+## NLP sentence segmentation and tokens
+
+Computers are best at working with structured data, in which everything is neatly grouped and labeled. Unfortunately for machines, human language is anything but structured. You’ve been using language for most of your life. Your brain accomplishes this through some of the most complicated neural circuitry on Earth. But it is very difficult to create machines that can work with human language.
+
+### NLP, machines segment sentences and extract meaning from “tokens” of human language
+
+Human language is **unstructured**. Although it is **loosely held together by rules of grammar**, our language expresses information in many confusing ways. Unlike structured information, which can be arranged in tables or matrices with neatly labeled rows and columns, unstructured information is **messy and difficult to understand**. To see why, consider this famous joke by Groucho Marx.
+
+> One morning I shot an elephant in my pajamas. How he got in my pajamas, I don’t know.
+> Adapted from Groucho Marx, 20th century comedian and movie star
+
+To deal with the **“messiness” of unstructured information**, computers begin with **one sentence at a time. This is called sentence segmentation**. Computers then break the information into **small chunks of information, called tokens**, that can be individually classified. Once the tokens in text have been sorted into a structure based on what they mean, NLP can work with them.
+
+The following activities show you how Groucho Marx’s joke can be tokenized into useful categories called **entities and relationships**. You’ll learn the meanings of these words as you continue.
+
+An **entity** is a noun representing a person, place, or thing. It’s not an adjective, verb, or other article of speech. I, elephant, and pajamas are entities because they are nouns. Shot, an, in, and my are not entities because they are not nouns.
+
+A **relationship** is a group of two or more entities that have a strong connection to one another.
+For I + elephant, I + pajamas, and elephant + pajamas, both words in the pair are nouns and are related entities.
+I + shot is not a relationship between entities. I is a noun but shot is a not.
+in + pajamas is not a relationship between entities. Pajamas is a noun but in is not.
+
+Once an AI has classified entities and relationships in text or speech, the AI can begin structuring the information as a step toward understanding it. Your brain, by the way, does the same thing, which might have helped you find entities and relationships in the previous activities.
+
+For example, consider the following two sentences: “Armen broke the glass. He always breaks the glass.” Notice that there is a relationship between the two sentences: the word he is related to the word Armen. The machine uses NLP to identify this relationship.
+
+A **concept** is something **implied in a sentence but not actually stated**. This is trickier because it involves **matching ideas rather than the specific words** present in the sentence.
+
+## Emotion detection and sentiment analysis are not the same thing
+
+Although emotions and sentiment deal with feelings rather than facts or actions, distinguishing between them can help an AI better understand a sentence.
+
+**Emotion detection** identifies distinct human emotion types.
+
+For example, you can determine if the emotion being expressed is anger, happiness, or fear after reading a user's rating and comments in an online customer satisfaction survey.
+
+AI can be trained to classify emotions. Identifying the right emotional token can make a big difference when an AI system is reading a social media post or a customer service chat, in which different emotions significantly change the meaning of a sentence.
+
+**Sentiment analysis** isn’t a specific emotion —at least, not as computer scientists use the term. Instead, it’s a measure of the strength of an emotion. 
+
+You can think of sentiment as a sliding scale between positive and negative, with neutral in the middle. 
+
+Sentiment analysis is a means of assessing if data is positive, negative, or neutral.
+
+## Human language makes classification challenging
+
+Here’s an old-fashioned riddle:
+
+> Why does your nose run and your feet smell?
+
+Human language is full of terms that are **vague or have double meanings**. This is called a classification problem. In the riddle, run and smell each have two meanings.
+
+- "A runny nose" means you have a cold and you need a tissue to wipe your nose. 
+- "A smelly foot" means that your  foot has an unpleasant odor.  
+It might only take you a moment to understand the joke, but an AI system might have difficulty classifying its elements. Consider these examples:
+
+- You can ship a box by train.
+- When a building burns down, it burns up.
+- You can fill in a form by filling it out.
+- A wise guy is not the same as a wise person.
+
+**Classification can be more difficult for an AI system than identifying tokens** because so much of classification depends on the **context** in which a sentence is contained. Compare I went to the docks to ship my box to I went to the station to ship my box. Both sentences indicate where a box’s travel begins, but neither specifies how it will travel. An AI system must associate the word ship with either the word station or docks, and then relate that association with the right concept: either train or boat.
+
+How does an AI system deal with this problem? After **ingesting several thousand instances** in which shipping from a dock results in boat travel, while shipping from a station leads to shipping by rail, the AI system **identifies the frequency in which places and kinds of travel are linked**. Gradually, the system gets better at classification and makes fewer mistakes. However, as with humans, an AI system’s classification will never be 100% perfect. (That’s why well-designed AI systems give not only a response, but also a confidence value.)
+
+## Chatbot structure
+If you’ve clicked a Chat button online and encountered a non-human chatbot, you might have noticed two things:
+
+- When you ask a clear question that relates to the website’s purpose, like asking a shopping chatbot “How can I get a refund?” it usually gives you a response related to your question.
+- When you ask a question that’s unclear or unrelated to the website’s purpose, like asking the shopping chatbot “Got any tickets for sister?” the response will be more along the lines of “I’m sorry, I didn’t understand your question.”
+This happens because the chatbot is programmed to answer only limited questions about a particular subject.
+
+Even with this limitation, chatbots are useful in fields ranging from retail sales to immediate care medicine. You can engage with a chatbot online at any time. A chatbot is always ready for your question (even if it cannot answer you). Some institutions use chatbots often because they don’t just broadcast ads like TV commercials. **When people engage with them, chatbots listen, and they answer repetitive questions that a business would otherwise need to pay humans to handle**.
+
+Chatbots work with small data. This means their scale is much more limited. A movie chain’s chatbot might need to answer questions only about movie titles, locations, and times, while a more general AI that searches social media might need to answer broad questions about what millions of people think. AI researchers say that chatbots “snack on small data”.
+
+### A chatbot has a “frontend” and a “backend”
+
+The frontend of a chatbot is the messaging channel. The frontend interacts with the person who’s asking questions, both listening (or reading) and speaking (or presenting text).
+
+The backend of a chatbot is where the hard work takes place. The backend operates application logic and has enough memory to remember earlier parts of a conversation as dialog continues.
+
+## A chatbot’s backend does the hard work of understanding and responding
+
+Suppose part of a chatbot’s job is to help you when you've lost or forgotten your password. You might enter, “How do I reset my password,” which would be easy for the chatbot to handle. To describe that action, a chatbot programmer might think in terms, such as:
+
+> IF question = “How do I reset my password”
+> THEN reply = “Here’s how to create a new password”
+
+But humans are not always easy to understand. They might ask or type:
+
+- “How come I can’t log into my account?!”
+- “I forgot my @#$ password!”
+- “It says my password is wrong.”
+- “fergot paswrd”
+
+This tells you that one chatbot response (“This is how to create a new password”) can be triggered by a large number of user queries (including all those listed, and more).
+
+This is a great job for algorithms called **classifiers**. Classifiers can **map many different ways of asking a question to a very small set of answers**. How small? Some retail chatbots respond to hundreds of different questions with only five or six possible answers. Questions the chatbots can’t answer are sent to human customer service representatives.
+
+## A chatbot backend usually includes three parts: intents, entities, and dialog
+
+Chatbots understand a question by breaking it into parts and relating those parts to things in its memory. A chatbot’s goal is to identify what are called entities and intents, then use what it’s found to trigger a dialog. What do these terms mean?
+
+### Intent
+
+An intent is a purpose: **the reason why a user is contacting the chatbot**. Think of it as something like a verb: a kind of action. A user might intend to file a complaint, to ask for directions, to speak to a salesperson.
+
+An institution might have many customer or member intents that it would like a chatbot to handle. Suppose you’ve been hired to help create a chatbot for a restaurant chain. One possible intent would be to find out when the restaurants are open. You might first interview a person who previously handled many forms of this question on the phone. Then, your task would be to list all the different ways a caller might ask about when the restaurants are open. The following table provides many examples of possible user inputs that map to this kind of intent.
+
+![image](https://github.com/user-attachments/assets/6bdfe2e0-994a-43af-bd41-24acde3e64e0)
+
+If a user asks, “What are the hours for the Austin location?”, then providing **business hours is the intent and Austin is the entity**. A chatbot needs a full list of entities in order to be helpful.
+
+### Dialog
+
+A dialog is a **flowchart—an IF / THEN tree structure that illustrates how a machine will respond to user intents.** A dialog is what the machine replies after a human asks a question. Even if a human uses run-on sentences, poor grammar, chat messaging expressions, and so on, artificial intelligence allows the NLP to understand well enough to provide a response.
+
+The dialog represents each possible word or phrase a user might enter, the matched response for the chatbot, and the many possible subsequent replies a user might make next. That’s too much for an ordinary flowchart to show (you might need three or four dimensions!), so chatbot software **condenses each moment of the conversation into a node**. A node contains a statement by the chatbot and a long, expandable list of possible replies.
+
+Planning this flowchart would be an adventure! You’d need to assign a reply to every possible user input after the chatbot’s greeting. For the restaurant hours example, all possible questions about a restaurant’s hours would lead to a single reply. This would continue for the next question (perhaps for the restaurant’s address), and so on. A large number of possible questions would be mapped onto a small number of possible answers until the conversation is ended. (Spoiler: It helps that today’s virtual assistants already have been trained on Wikipedia, so they know, for example, the difference between a wise man and a wise guy.)
+
+## Intents, entities, and dialogs make quick work for NLP
+
+In a conventional computer, the program code is stupendously large but wouldn’t handle intents, entities, and dialogs very well. A conventional computer would need a separate IF / THEN line for many thousands of ways a question might be asked. Unless a human were to match one of those lines perfectly, the computer would fail. 
+
+But an AI system’s combination of NLP with intents, entities, and dialog can make quick work of this. NLP analyzes sentence components, then uses processes like passage and evidence scoring to classify the sentence components against possible chatbot responses. The result is that when a human user asks a question, the AI system provides the answer with the highest confidence.
+
+Consider Staples, the office supply company that features the Easy button. Suppose a customer asks for a chatbot on Staples’ website. The chatbot’s frontend receives the customer’s inquiry, then forwards it to the chatbot’s backend. There, IBM Watson Assistant runs the NLP to understand the human’s intentions regarding ordering a product or tracking a shipment.
+
+If the customer says, “I want to reorder black pens,” the chatbot figures out what that means. Then, it uses cognitive services to pull up the customer’s purchase history. Within seconds, the system is helping the customer buy more pens.
+
+The Staples chatbot only knows five things, but it knows them well. It supports online sales 24 hours a day, giving callers round-the-clock service while leaving human staff free to do other work. This is valuable for both the customers and the business.
