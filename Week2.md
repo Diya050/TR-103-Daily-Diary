@@ -379,7 +379,7 @@ Conclusion: You successfully saved and downloaded your IBM Watson AutoAI model. 
 this model with new data sets, modify the code of the model, and even use the model on other integrated 
 development environments (IDEs). 
 
-# DAY - 8
+# DAY - 9
 
 ## What is prompt tuning?
 
@@ -394,3 +394,41 @@ This video discusses the intersection of artificial intelligence (AI) and climat
 Existing technologies face **challenges related to performance, toxicity, and stability, which impact their adoption and cost.** The **complexity of exploring various materials, processes, and operating conditions in a traditional laboratory** setting makes the problem difficult to solve. AI can play a crucial role by speeding up and enhancing the scientific method. It can **aid in generating hypotheses through natural language processing, analyzing vast amounts of scientific literature, and making meaningful connections between materials and properties. AI techniques, such as generative modeling, machine learning, and quantum chemistry, can predict and assess new materials and their performance before physical experimentation.**
 
 AI-enhanced **simulations allow for efficient testing of materials under different conditions**, leading to the discovery of promising candidates. AI can also **optimize synthesis routes and automate laboratory processes, generating data to improve models and expand the scientific knowledge graph.** The integration of AI with the scientific method is expected to accelerate material discovery and have a significant impact on addressing climate change in the coming years.
+
+
+# DAY - 10
+
+## Natural Language Processing and Computer Vision
+
+Every day, **computers** help you by understanding things they **hear and see.** Your phone responds to your verbal questions and commands. Traffic management systems observe streets and highways to suggest ideal routes for you to travel. Computers respond to your needs and help you make good decisions! Think of artificial intelligence (AI) as prediction machines that augment human intelligence and provide insights.
+
+### The Debater Project
+
+If you ask an artificial intelligence system a question on a topic for which it’s been trained, it can look up an answer. The quiz show, Jeopardy!, proved that years ago. But can an AI system carry on a continuing conversation and respond to what is said with each exchange? Let’s make this question even more difficult: **Can an AI win a debate with a human expert about a complicated topic?** To answer this question, consider a famous experiment, then learn how AI works with spoken and written language.
+
+IBM began developing **Project Debater** in 2012, hoping to build a machine that could do more than win debates with humans. In other words, IBM Project Debater would need to be able to do more than just answer questions in a human language; it would need to have the ability to listen to a series of competitive arguments posed by humans and respond to them intelligently. **IBM's ultimate goal was to build a system that could help people make evidence-based, bias-free decisions on difficult topics where the answers aren’t obvious.**
+
+#### It takes four steps to win a debate
+**Step 1. Learn and understand the topic**
+Ingest several billion passages from newspapers, books, and journals. (AI researchers call this collection of learned material a corpus.) Then, structure all that content so you can relate concepts to each other and evaluate them, even when they’re stated in different ways.
+
+
+**Step 2. Build a position**
+Create an opening speech made of short pieces of text pasted together from the corpus. Your speech should detail your position on the debate topic. It can’t be a jumble of phrases. It must present a compelling argument, in logical order, using good grammar.
+
+
+**Step 3. Organize your proof**
+Learn the deeper meaning of the facts that surround your topic. Decide what evidence is strongest and arrange your proof by themes. Adjust your arrangement each time new evidence arrives. This will help you find updated or completely new information that can score points against your opponent’s position.
+
+
+**Step 4. Respond to your opponent**
+Listen to your opponent’s arguments and rebuttals, then deliver a convincing rebuttal that refutes your opponent and further proves your case.
+
+Why do we care about these four steps? Because they reflect and test four things that cognitive systems do:
+
+![image](https://github.com/user-attachments/assets/153ce583-8392-4469-9f04-7e5c203342dc)
+
+
+### Is it difficult to understand human language?
+
+Understanding human language is difficult, even for people who have grown up with it. Human language is incredibly complex, full of strange expressions that seem to contradict each other, metaphors that require cultural knowledge to understand, and grammatical structures that sometimes turn simple ideas into tongue-twisters. Machines require systems that research scientists call natural language processing, or NLP, to understand human language. IBM Project Debater was the most complex AI system IBM Research had ever built to understand human language.
