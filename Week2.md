@@ -616,7 +616,7 @@ Here’s a clear and concise **note summary** from the video transcript you shar
 
 ---
 
-#### 🏠 **Example: Identifying a House**
+#### **Example: Identifying a House**
 
 * Image = collection of pixels.
 * CNN uses filters to detect:
@@ -627,7 +627,7 @@ Here’s a clear and concise **note summary** from the video transcript you shar
 
 ---
 
-#### 🚀 **Applications of CNN**
+#### **Applications of CNN**
 
 * **Optical Character Recognition (OCR)** – Reading handwritten text.
 * **Visual recognition** – Object detection & classification.
@@ -719,3 +719,323 @@ You might have heard of computer-generated **“deep fakes”**: computer-genera
 - Counting the number of people in an unruly crowd
 - Classifying animal and plant populations to measure biodiversity in a forest
 - Performing lip-reading for people who cannot hear or speak
+
+
+## What are AI Ethics?
+
+> Every day people interact with AI systems, but how much do they trust them?
+
+### The age of AI
+
+Artificial intelligence is everywhere. It **powers the navigation apps** that help you find the most efficient or most eco-friendly route. It **drives the search engines** that help you find the most relevant information. It helps **doctors reach more accurate diagnoses and develop more optimal treatment plans**. It improves **weather forecasting**, enabling you to better prepare for significant weather events. In conjunction with sensors and satellites, it can collect **data about the environment** that helps scientists better understand and make predictions about our changing world. AI can make life easier and safer by helping people make more informed decisions, connecting them with the right information they need at the right time, and finding patterns or efficiencies that they might not otherwise know about.
+
+But AI also has the **potential to do harm**. For example, AI can be used when determining **who gets a loan, who gets accepted to college or selected for a job, how employees are compensated, or even the lengths of prison sentences**. In the context of AI, harm doesn’t necessarily have to do with physical harm. The harm can be less obvious, taking the **form of inequity, discrimination, or exclusion**. And this harm can be subtle because people may not always know when they are interacting with AI or when and how AI may be influencing decisions about them.
+
+### Can AI be trusted?
+As AI is increasingly embedded in everyday life, it is vital that people can trust AI. Practitioners infuse trust into AI systems with AI ethics. **AI ethics is a multidisciplinary field that investigates how to optimize AI’s beneficial impact while reducing unintended or adverse outcomes.** There are five pillars of AI ethics: **fairness, robustness, explainability, transparency, and privacy**. These pillars are focus areas that help make AI trustworthy.
+
+
+### **Trustworthy AI – The Five Pillars**
+
+#### **Introduction**
+
+* Trustworthy AI is essential for businesses to ensure ethical, reliable, and responsible AI systems.
+* There are **five fundamental pillars** commonly discussed: **Fairness, Robustness, Privacy, Explainability, and Transparency**.
+* This is a fast-evolving field, and definitions or practices may change over time.
+
+---
+
+#### **1. Fairness**
+
+* Ensures AI models do not behave in a biased or discriminatory way.
+* Bias may originate **before model building**, such as in biased datasets.
+* Focus areas:
+
+  * Detect and address bias in training data.
+  * Ensure the model does not systematically favor or disadvantage any group.
+  * Groups may vary by use case (e.g., age, gender, ethnicity).
+* Goal: Prevent unfair advantages or disadvantages.
+
+---
+
+#### **2. Robustness**
+
+* Ensures models perform reliably under **exceptional conditions** or **changing environments**.
+* Addresses challenges like:
+
+  * **Data drift**: Changes in input data patterns over time.
+  * Examples: Changing customer behavior during events like the COVID-19 pandemic.
+* Goal: Monitor and maintain model performance, understanding how and why behavior changes.
+
+---
+
+#### **3. Privacy**
+
+* Protects data, models, and insights throughout their lifecycle.
+* Includes:
+
+  * Data protection during model building, testing, validation, and deployment.
+  * Control over who owns and accesses insights derived from models.
+* Goal: Comply with data privacy regulations and ensure user data safety.
+
+---
+
+#### **4. Explainability**
+
+* Provides clear reasoning for model decisions.
+* Examples:
+
+  * Why was someone approved or rejected for a loan?
+  * Why was one applicant selected for a job over another with similar qualifications?
+* Important for both **end users** and **decision-makers**.
+* Goal: Make AI behavior understandable and justifiable.
+
+---
+
+#### **5. Transparency**
+
+* Allows full inspection and understanding of all aspects of a model.
+* Includes:
+
+  * Who built the model?
+  * What data and algorithms were used?
+  * What tools and packages were applied?
+  * Who approved and validated it?
+* Analogy: Similar to a food label showing ingredients, nutritional facts, and manufacturing details.
+* Goal: Provide easy access to all facts about a model for accountability.
+
+---
+
+#### **Key Challenge**
+
+* Implement these pillars **systematically**, independent of the tools or deployment environments used.
+* Ensuring consistency and adherence across the entire AI lifecycle is critical for building trust.
+
+
+## **Fairness**
+
+What’s meant by fairness in AI systems? This story looks at a large national banking company and some of the issues with fairness that must be considered and dealt with when deploying AI systems.
+
+As the company gets ready to deploy an AI system to help them identify high-value candidates in their promotion pool, Priscilla notices that most of the candidates have a college degree. They launch a review of the system to understand what is driving the result and find that the system is biased. This story covers basic concepts of bias within the context of fairness, and how bias can enter a system. The story also provides a set of questions for you to think about.
+
+Jordan has taken a new role as the banking company’s Chief Data Officer. Before Jordan joined, the company had been testing a new AI system, the first of its kind, to help their PeopleOps group **identify high-value candidates in their promotion pool for the current year**.
+
+The system seems to be working, so the team shares the promotion list with Priscilla, the Director of People Operations. First, Priscilla looks at the list alongside the candidates’ demographic information. As she goes through the list, something catches her attention. Priscilla notices that **a disproportionate number of the promoted candidates have a college degree**. She is surprised because she had specifically recommended an employee without a college degree who was already performing the next-level job and who sounded like the perfect fit for a promotion, but that person is not on the promotion list. She calls Jordan to start an investigation.
+
+Jordan asks the data science team to look into Priscilla’s concerns. As a first step, the data science team quickly analyzes the 5-year promotion data used for training the AI system. 
+
+The following table shows a sample of the data they collected:
+![image](https://github.com/user-attachments/assets/6fd58cd9-9df9-46ea-ad32-7455157ba17f)
+
+![image](https://github.com/user-attachments/assets/c4384b5a-c03e-48e1-9a13-cd65552dbe62)
+
+By looking at the graph, Jordan notices that historically there were disproportionately more candidates with a college degree than candidates without a college degree in the final candidate pool for promotion. It occurs to them that the system could have a fairness problem resulting in bias based on education.
+
+ordan gets the team together to discuss the issue they found and to plan what they need to do next.
+
+As a first step to address the dilemma, Jordan asks the team if they think there is business value in keeping the AI system. 
+
+Jordan asks, “Do you think we should continue using AI to help with the promotion process?”
+After taking a moment to think, Priscilla nods her head.
+
+“If done well and in a way PeopleOps team members can trust, it will save us time and could help us make our promotion process fairer,” says Priscilla.
+
+Jordan, Priscilla, and Nischal all agree that the value of AI is there, if implemented correctly.
+
+The next day, Nischal and the PeopleOps team assemble in the meeting room. Nischal starts the discussion with the term bias.
+
+Jordan asks Nischal, “Can you explain bias in the context of fairness?”  
+
+Nischal agrees and explains, “Bias, in general, is a systematic error, but in the context of fairness, the concern is around unwanted bias. Unwanted bias places some groups or individuals at a systematic advantage and other groups or individuals at a systematic disadvantage.” 
+
+Priscilla asks, “Why would we split the population into groups?”
+Nischal explains, “The reason to use groups is simple: to mitigate disparity in the outcome across the groups. In other words, to have an equitable outcome across the groups.”
+
+Nischal continues, “We divide the population into groups based on one or more attributes in the data that could introduce disparity or inequity in the outcome. **The attribute that separates the population into groups is called a protected attribute**. Some generally used protected attributes are race, age, sex at birth, gender identity, and ethnicity. But…there isn’t a defined set of protected attributes.”
+
+Note: For legal and other policy reasons, it is often the case that protected attributes are not maintained in the data set. In these cases, the team might impute them (which is fraught with its own biases) or might use the statistics from demographic data sets using a so-called transfer learning approach. 
+
+“Traditionally, if one group receives a more favorable or advantageous outcome than the other group, bias can enter and cause an unfair result. The group that traditionally receives more favorable outcomes is called the privileged group. The group that traditionally receives fewer to no favorable outcomes is called the unprivileged group. Fairness in AI aims to minimize the impact of unwanted bias on the system,” Nischal concludes.
+Nischal points to the graph, “In our data, education is one of the possible protected attributes.”
+
+So, in our promotion application,
+
+- Employees who have a college degree are in the privileged group.
+- Employees who do not have a college degree are in the unprivileged group.
+- Education, when used to separate the population into groups, introduces disparity, and is the protected attribute.
+
+The team has identified the issue as one of fairness in the AI model. To achieve fairness, unwanted bias needs to be reduced. In AI, bias is a systematic error that, intentionally or not, can influence an AI system in a way that might generate unfair decisions. Bias can be present both in the AI system and in the data used to train and test it. Based on the data that was given to the AI system, bias had crept in and was affecting the system’s results.
+
+### **Question 1**
+
+**Is there a step to analyze the intended and unintended consequences of the application using a design-thinking approach? Do you think that such a step is necessary?**
+
+**Yes**, it is very important to understand both the known and hidden effects of the application to mitigate potential harm.
+
+* One effective way to do this is by considering **layers of effect**:
+
+  * **Primary effects**: Intended impact of the application.
+  * **Secondary effects**: Known or predictable unintended impacts.
+  * **Tertiary effects**: Potential unpredictable or unforeseen unintended impacts.
+* Involving a **diverse and inclusive team** helps identify a wider range of potential impacts, including possible harms, and strengthens the design-thinking process.
+
+---
+
+### **Question 2**
+
+**Which attribute in this story’s dataset has the potential to introduce unwanted bias?**
+
+**The "Employee education" attribute**
+
+* This attribute may encode systemic inequalities or reflect societal biases, leading to unintended discrimination if not handled carefully.
+
+---
+
+### **Question 3**
+
+**Is there a way to mitigate bias at every stage of the AI lifecycle (from development to deployment)? How would you do it?**
+
+**Yes**, bias mitigation should be applied at all stages of the AI lifecycle.
+
+* **Key practices:**
+
+  * Work with a **diverse and inclusive team** to better identify potential bias.
+  * Use **high-quality data** that is relevant, accurate, complete, and representative to reduce bias in model training.
+  * Apply **bias detection and mitigation tools** during development and after deployment to monitor performance.
+  * Continuously detect, measure, and address bias in production to proactively remediate issues.
+
+---
+
+### **Question 4**
+
+**What are the ways observed bias can be dealt with?**
+
+There are several ways to address observed bias:
+
+1. **Investigate** where and why the model exhibits bias.
+2. **Review and fix** issues in the data and data labeling process.
+3. **Retrain the model** with corrected or additional data if necessary.
+4. Implement ongoing **monitoring** and evaluation of model behavior to catch future bias.
+
+
+## What is robustness?
+
+Next, you’ll look at how AI systems can be protected from attacks. **Adversarial robustness refers to an AI model’s ability to resist being fooled**. Teams are constantly working to make AI systems more impervious to irregularities and attacks. This story looks at what a medical diagnostic company can do to safeguard AI systems against attacks. 
+
+A medical diagnostic company is getting close to launching **an application to detect lung cancer**. Then they hear that another healthcare app start-up is facing a lawsuit for misdiagnosed cases. The company’s technical leadership team pulls everyone together to learn what an **adversarial attack** is and to assess the risk of their system being attacked. In this story, you’ll learn what an adversarial attack is, the different types of attacks, how they can happen, and what teams need to think about to protect their AI systems.
+
+The launch date for an AI-based application to aid in the detection of lung cancer using chest x-rays is quickly approaching. Charlie, the Chief Technology Officer, is reviewing the plan with her team
+
+**Adversarial attacks** are intentionally carried out on AI systems to accomplish a malicious end goal by taking advantage of AI system vulnerabilities.
+
+“An adversarial attack aims to negatively impact the system performance, exploit data used, and corrupt the model logic. The one who takes advantage of the AI system vulnerabilities to accomplish their motive is called an **adversary**.
+
+- Get access to patient’s personal information like age, gender, race, medical history, identification information, and finance information.
+- Add malicious x-ray samples to the input training data and make the system learn from the malicious data that is in favor of the adversary.
+- Predict the presence of disease among significant numbers of patients who don’t have the disease or vice-versa. This also reduces the system performance.
+- Intentionally add noise to the data so more patients will fall under the “Disease Detected” category.
+- Learn the company’s AI model and related data. Develop a similar model and use for own purpose.
+- Send malicious and corrupted x-ray images to the company’s AI application and recreate training data based on the system’s response.
+
+Prashant notes, “There are multiple ways for an adversary to achieve the goals mentioned above including the following: 
+
+Getting access to the training data and learning the data distribution
+Having permission to modify the data used for training and testing the AI system
+Having access to the model code and parameters
+Corrupting the user’s data and sending the modified data to the deployed AI system”
+“The adversary might not necessarily experiment with only one way to enter a system. Instead, it is likely that the adversary might use a combination of different ways to attack a system. Also, the ways adversaries attack can vary from attack to attack.”
+
+Prashant then sums up by saying, “Given the goals and needs, adversarial attacks can occur either at the model training or after the model deployment.”
+
+### The issue of poisoning
+
+Prashant pauses here and thinks about potential attacks that can happen to their AI system.
+“As you can see, poisoning can happen in the following ways during the model training phase:
+
+- Injecting malicious samples into the training data
+- Updating features and labels of the training data
+-  AI model architecture, parameters, and logic”
+“There are several impacts of the poisoning attack. One is when the deployed AI model becomes sensitive to the malicious data's specific pattern.”
+
+### The issue of evasion
+
+Evasion can happen after the model deployment phase in the following ways:
+
+- Sending malicious test samples to the deployed model
+- Corrupting test data sent to the deployed model
+
+The team now understands how an AI model can be corrupted by poisoning and evasion and why it is important that the model is robust. The team is now ready to go make the system robust against adversarial attacks. 
+
+Here’s a clean and professional version of your answers without emojis:
+
+---
+
+### **Question 1**
+
+**Is the source of the data used by the AI model important to know?**
+
+Yes, the source of the data is very important to know. AI models rely heavily on data to learn, so the quality of data directly impacts the trustworthiness of the AI system. It is essential to understand:
+
+* How the data was collected.
+* Who has access to the data.
+* How the data has been used in the past.
+
+This helps ensure the data is relevant, accurate, unbiased, and compliant with regulations.
+
+---
+
+### **Question 2**
+
+**Is it better to use public data? Should the data be screened before it is used?**
+
+It is neither inherently better nor worse to use public data. While public data can be useful, it must be **carefully vetted** before use to ensure:
+
+* Accuracy and relevance.
+* Completeness and representativeness.
+* Absence of biases or harmful content.
+  Screening the data before using it is critical to prevent introducing issues into the AI model.
+
+---
+
+### **Question 3**
+
+**How would you monitor for attacks on the deployed model?**
+
+A good strategy is to use tools that proactively monitor the deployed model for attacks and anomalies. For example, **IBM AI Robustness 360** can help detect and mitigate adversarial attacks and maintain model integrity. Continuous monitoring ensures the model remains secure and performs as expected in real-world conditions.
+
+## What is explainability?
+
+An AI system is explainable when everyday people, who do not have any special training in AI, can understand how and why the system came to a particular prediction or recommendation. Explainability is like showing your work on a math problem so that everyone can see the steps you took to get your answer.
+
+After deploying an **AI-based product recommendation system**, an online retailer notices that customers want to understand why and how they are getting the product recommendations. The Data Science team dives into how to explain the models in different ways that are relevant for different users. The team also generates a set of questions to think about when solving this kind of problem. 
+
+**Interpretability** is the degree to which an observer can understand the cause of a decision. It is the success rate that humans can predict the result of an AI output, while **explainability** goes a step further and looks at how the AI system arrived at a result.
+
+Thanks to Luan, Olivia and Clara are ready to get to work on increasing the explainability of their AI model. The team now understands the importance of making sure that everyone, not just customers, can understand how and why AI systems generate particular predictions or recommendations.
+
+### **Question 1**
+
+**What is a way for the team to be aware of who is involved in development and deployment of the AI system and each of their roles?**
+
+It is important to define roles clearly before starting work on the project, ideally after the business discussion stage. This includes identifying all team members and assigning responsibilities for each stage of the AI lifecycle. Building a **diverse and inclusive team**, including a variety of stakeholders, helps create systems that are more trustworthy and better reflect different perspectives.
+
+---
+
+### **Question 2**
+
+**How can the team gather the type of explanations each persona will aim to get from the model?**
+
+The team should first define the **personas** and identify what types of explanations each persona needs. This step involves understanding the goals, technical expertise, and expectations of different users. After defining the personas, the team can work together to decide how to provide these explanations in a way that is meaningful and does not detract from the overall user experience.
+
+---
+
+### **Question 3**
+
+**Which explanation method will better match with each persona’s expectation?**
+
+Explanation methods vary depending on the consumer of the explanation. To select the best method, it is important to understand each persona’s needs, technical background, and goals. Using a **design thinking approach** can help the team consider these factors and tailor explanation methods to meet the expectations of each persona effectively.
+
+
+## What is transparency?
+
+When an AI system is transparent, information is shared about what data it collects, how it uses and stores the data, and who has access to the data. When effectively implemented, transparency in AI is like lifting the hood of a car to let everyone see how the different parts of the engine work together. 
