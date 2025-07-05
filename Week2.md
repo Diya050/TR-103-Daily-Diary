@@ -1039,3 +1039,98 @@ Explanation methods vary depending on the consumer of the explanation. To select
 ## What is transparency?
 
 When an AI system is transparent, information is shared about what data it collects, how it uses and stores the data, and who has access to the data. When effectively implemented, transparency in AI is like lifting the hood of a car to let everyone see how the different parts of the engine work together. 
+
+
+One of the largest banking companies in the world is testing an AI system to **automate their mortgage approval process**. Abi, the Business Owner, is impressed with the system so far and has asked to see key details about the system to better understand it. Abi's request makes the team realize that the key details are not clearly documented and therefore not straightforward to understand. This story covers what the team did to increase transparency and create a standard for documenting details, from the sources of data to how the system makes predictions and recommendations.
+
+Transparency is one of the keys to creating trustworthy AI. Going forward, the team will document what data is collected, how it is used, how it is stored, and who has access to the data. This transparency will allow questions about the AI system to be answered easily and quickly.
+
+### **Question 1**
+
+**How can you determine the roles involved in developing and deploying the AI system?**
+
+It is important to define roles clearly before starting the project, preferably right after the business discussion stage. This involves identifying all team members who will participate in development and deployment and specifying their responsibilities. Building a **diverse and inclusive team**, including a variety of stakeholders, contributes to creating more trustworthy AI systems by incorporating different perspectives and expertise.
+
+---
+
+### **Question 2**
+
+**What types of facts can each role involved in the process provide?**
+
+Defining the roles and mapping them to the facts they can provide is an important step toward achieving transparency. Examples include:
+
+* **Business Owner**: Facts about the purpose and intended use of the system.
+* **Data Scientists / Data Engineers / AI Model Lead / Chief Risk Officer**: Facts about the data, such as data sources, data quality, and fairness evaluations.
+* **Software Developers**: Technical details about the system implementation.
+* **Operations Team**: Information about model deployment and monitoring processes.
+  This mapping exercise ensures that all necessary facts are gathered from the appropriate experts.
+
+---
+
+### **Question 3**
+
+**Who do you think should be responsible for ensuring compliance with the whole process?**
+
+Ensuring compliance is a complex task that typically requires oversight by a **Chief Compliance Officer** or another senior leader. However, compliance is a **shared responsibility**. A team or committee often works together to enable and enforce compliance across the organization. Everyone involved in the AI lifecycle has a role to play in supporting compliance through their specific contributions and actions.
+
+
+## What is privacy?
+
+Data is the heart of AI. Because AI ingests so much data to learn, identify patterns, and make predictions or recommendations, it must prioritize and safeguard the privacy of all of the data it comes into contact with.
+
+How important is privacy? This story looks at a large educational institution and how privacy must be considered when developing AI systems.
+
+An educational institution seeks to expand its reach by launching an online global campus. After analyzing the market, the institution’s business development team proposes creating personalized learning experiences for each student. The team believes that the most efficient way to do this is to use an AI model to create personalized learning curricula. The institution’s data science team is brought in to create a proof-of-concept AI model using sample data collected from the institution’s existing learning portal data.
+
+When the proof of concept is complete, the business development and data science teams gather to review the AI model.
+
+Personal information (PI)  is any information relating to an identified or identifiable individual, like a name or postal code. Sensitive personal information (SPI) is information that, if compromised, could be misused to significantly harm or inconvenience an individual, like a bank account number or birth date. How would you categorize these types of information?
+
+Because the machine learning models that drive AI often need to be trained using personal or sensitive information, it is critical that AI systems prioritize and safeguard privacy. If a model is trained using personal or sensitive information without any privacy controls applied, then it could be vulnerable to breaches or attacks.
+
+Well, there are many privacy controls that can be applied to fortify AI against potential breaches of personal or sensitive data. Two that occur during model training are **model anonymization** and **differential privacy**. One that occurs after model training is **data minimization**.
+
+- The goal of model anonymization is to anonymize the training data with minimal accuracy loss. After all, if the model is trained on anonymous data, then the model itself is anonymous and there is little risk to any personal data used during training.
+
+- In differential privacy, random noise is added during model training to reduce the impact of any single individual on the model’s outcomes and to give a guarantee that an individual in the training data set could not be identified.
+
+- Data minimization means that only data that is needed is being collected. This control helps prevent privacy breaches by limiting the amount of personal data that is collected in the first place and by ensuring that collected data is only as granular as needed. For example, data minimization might mean that you collect only an individual’s zip code instead of their full address, or only their year of birth instead of their full birth date.
+
+Now, the team knows the concepts of personal and sensitive information and understands that information that seems harmless may be able to be used to identify individuals. Securing personal data and the AI model is important for both the company and their users.
+
+### **Question 1**
+
+**How could making the model publicly available introduce a risk to privacy?**
+
+If an attacker gains access to the model, they may be able to infer which individuals were included in the training data. This type of attack is known as a **membership inference attack**. To reduce this risk, it is essential to apply AI privacy controls such as:
+
+* Anonymizing the training data.
+* Adding noise to the data.
+  These techniques make it much harder for attackers to identify individuals from the model’s behavior.
+
+---
+
+### **Question 2**
+
+**If there is risk involved with using personal information, is it still worth using?**
+
+Yes, personal information can still be used to train models when it is necessary and appropriate. However, privacy-preserving techniques must be applied to the data to protect individuals. This includes methods such as:
+
+* Data anonymization.
+* Differential privacy.
+* Data encryption during processing and storage.
+  These measures help ensure responsible use of personal information while mitigating risks.
+
+---
+
+### **Question 3**
+
+**What is another example of data minimization?**
+
+Examples of data minimization include:
+
+* Using an individual’s **industry** instead of their company or job title.
+* Using an **area code** instead of a full telephone number.
+* Asking **yes/no questions** instead of collecting detailed information (e.g., “Did you graduate from high school? Yes/No” instead of asking for the high school’s name or graduation date).
+
+Data minimization helps reduce the collection of unnecessary personal details, lowering privacy risks.
