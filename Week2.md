@@ -1297,7 +1297,7 @@ Reinforcement learning involves an agent that learns by interacting with its env
 Machine learning is a powerful tool for creating models that can make predictions and decisions based on data. By understanding the concepts, algorithms, and practical applications, you can build and implement your own ML solutions to solve real-world problems.
 
 
-## **Day 14**
+# **Day - 14**
 
 Data preprocessing is the most important phase of any Machine Learning project. It ensures that raw data is cleaned, transformed, and prepared so that ML models can understand and learn from it effectively.
 
