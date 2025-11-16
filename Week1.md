@@ -1,4 +1,4 @@
-# DAY 1
+# Day - 1
 
 ## Introduction to Artificial Intelligence
 
@@ -129,7 +129,7 @@ Computer scientists have identified three levels of AI based on predicted growth
 There might be another level, known as artificial superintelligence (ASI) that could appear near the end of this century. Then machines might become self-aware! Even then, no levels of AI are expected to replace or dominate you. Instead, scientists hope AI will extend humans’ ability to lead richer lives.
 
 
-# DAY - 2
+# Day - 2
 
 ## What are the three eras of computing?
 
@@ -250,7 +250,7 @@ Now, imagine a programmable computer trying to extract meaning from billions of 
 
 But AI can shed light on unstructured data! AI uses new kinds of computing—some modeled on the human brain—to rapidly give dark data structure, and from it, make new discoveries. AI can even learn things—by itself—from the data it manages and teach itself how to make better predictions over time. This is the Era of AI, and it changes everything!
 
-# DAY - 3
+# Day - 3
 
 ## Is machine learning the answer to the unstructured data problem?
 
@@ -359,7 +359,7 @@ Perhaps, 25 years from now, General AI is expected to emerge. AI researcher Nick
 
 What’s beyond these wonders? Humans, devices, and robots might exist as a collective “digital brain” that anticipates human needs, makes predictions, and provides solutions. Farther in the future, we might trust the digital brain to do things on our behalf across a broad spectrum of endeavors!
 
-# DAY - 4
+# Day - 4
 
 ## How do machines learn?
 
@@ -416,7 +416,7 @@ Classical machine learning can be outperformed, at some tasks, by newer methods 
 - **Lower expense to operate:** Classical machine learning requires less computing power than deep learning ecosystems. They can run on less expensive computers with less powerful processors, which lowers the price for smaller businesses, communities, or healthcare systems that share time on them in pay-as-you-go arrangements.
 - **Easier to interpret:** Deep networks are so complex that even AI researchers don’t entirely understand what’s going on inside. As a result, AI researchers are not always able to determine when deep network systems are producing invalid outputs. Compared to these mysteries, classical results can be easier to debug, and to test for accuracy and lack of bias.
 
-# DAY - 5
+# Day - 5
 
 ## The deep learning ecosystem
 
@@ -502,7 +502,7 @@ Autoregressive models generate new content by predicting the next element in a s
 - **DALL-E AND DALL-E 2:** Developed by OpenAI, these are generative AI models that **use natural language text input to generate digital images**. The first version of DALL-E could only render AI-created images in a cartoonish fashion, but the latest version can produce much more realistic images due to improved image processing algorithms.
 - **BARD:** Bard is a generative AI tool that Google launched in an initial, limited capacity in March 2023. Bard is founded on Google’s Bidirectional Encoder Representations from Transformers (BERT) model. It isn’t generative AI; rather, Google developed it for natural language processing (NLP), especially for its capacity to interpret the nuances of a user’s search words. **Bard builds on BERT’s capability of natural language interactions with Bard’s generative AI capability to generate new content.** For example, musicians can use Bard to compose music and lyrics.
 
-# DAY - 6
+# Day - 6
 
 ## Industry uses of generative AI
 
