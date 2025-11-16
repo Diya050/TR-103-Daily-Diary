@@ -382,13 +382,3 @@ python drive.py
 
 Then open the simulator → **Autonomous Mode**.
 
-
-
-# **Summary (Day 25 to Day 28 Tutorial)**
-
-| Day        | What You Built                                      |
-| ---------- | --------------------------------------------------- |
-| **Day 25** | CNN architecture (NVIDIA), project setup            |
-| **Day 26** | Dataset collection, preprocessing, augmentation     |
-| **Day 27** | Training pipeline, data generator, model training   |
-| **Day 28** | Real-time autonomous driving with Flask + Socket.IO |
