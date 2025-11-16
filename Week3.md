@@ -336,7 +336,7 @@ Computer Vision enables machines to interpret visual data. Deep learning has sig
 
  
 
-# 5. Key Computer Vision Techniques
+## 5. Key Computer Vision Techniques
 
 ### 5.1 Image Classification
 
@@ -389,7 +389,7 @@ Common augmentation methods:
 
  
 
-# 6. Building a Deep Learning Model (General Workflow)
+## 6. Building a Deep Learning Model (General Workflow)
 
 ### Step 1: Import Libraries
 
@@ -434,7 +434,7 @@ Use accuracy, loss curves, confusion matrix, and tuning.
 
  
 
-# 7. Popular Datasets in Deep Learning and CV
+## 7. Popular Datasets in Deep Learning and CV
 
 * MNIST (handwritten digits)
 * CIFAR-10, CIFAR-100
@@ -445,7 +445,7 @@ Use accuracy, loss curves, confusion matrix, and tuning.
 
  
 
-# 8. Real-World Applications of Deep Learning and Computer Vision
+## 8. Real-World Applications of Deep Learning and Computer Vision
 
 * Self-driving cars
 * Medical diagnosis from X-rays and MRI
