@@ -1297,11 +1297,11 @@ Reinforcement learning involves an agent that learns by interacting with its env
 Machine learning is a powerful tool for creating models that can make predictions and decisions based on data. By understanding the concepts, algorithms, and practical applications, you can build and implement your own ML solutions to solve real-world problems.
 
 
-## **Day 14 — Data Preprocessing and Exploration**
+## **Day 14**
 
 Data preprocessing is the most important phase of any Machine Learning project. It ensures that raw data is cleaned, transformed, and prepared so that ML models can understand and learn from it effectively.
 
----
+
 
 ## **1. What is Data Preprocessing?**
 
@@ -1317,11 +1317,10 @@ It includes:
 
 This step directly impacts model accuracy and performance.
 
----
 
 ## **2. Steps in Data Preprocessing**
 
-### **✔ Step 1: Import the Data**
+### **Step 1: Import the Data**
 
 Using tools like **Pandas**, you load the dataset and check its structure.
 
@@ -1333,7 +1332,7 @@ df.head()
 
 ---
 
-### **✔ Step 2: Handle Missing Values**
+### **Step 2: Handle Missing Values**
 
 Common methods:
 
@@ -1349,7 +1348,7 @@ df['age'].fillna(df['age'].mean(), inplace=True)
 
 ---
 
-### **✔ Step 3: Handle Duplicates**
+### **Step 3: Handle Duplicates**
 
 ```python
 df.drop_duplicates(inplace=True)
@@ -1357,7 +1356,7 @@ df.drop_duplicates(inplace=True)
 
 ---
 
-### **✔ Step 4: Encode Categorical Variables**
+### **Step 4: Encode Categorical Variables**
 
 ML models need numbers, not text.
 
@@ -1370,7 +1369,7 @@ df = pd.get_dummies(df, columns=['gender', 'city'])
 
 ---
 
-### **✔ Step 5: Feature Scaling**
+### **Step 5: Feature Scaling**
 
 Used to normalize wide-range numerical values.
 
@@ -1402,7 +1401,7 @@ Methods:
 
 Before modeling, you must **understand the dataset** deeply.
 
-### **✔ Descriptive Statistics**
+### **Descriptive Statistics**
 
 ```python
 df.describe()
@@ -1410,7 +1409,7 @@ df.describe()
 
 ---
 
-### **✔ Data Visualization**
+### **Data Visualization**
 
 * Histogram → distribution
 * Boxplot → detect outliers
